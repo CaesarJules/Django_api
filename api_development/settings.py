@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-qf165dhya7h99db@nd7!et71s%l83u3i=rl!sorfs6)mdcdxha
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 MODELS = os.path.join(BASE_DIR, 'reviewanalyzer/models')
 
